@@ -3,9 +3,9 @@
 import os
 import sys
 
-this_folder = os.path.dirname(os.path.abspath(__file__))
-os.chdir(this_folder)
-sys.path.append(os.path.join("E:/PythonFile/tornado_service", ".."))
+#this_folder = os.path.dirname(os.path.abspath(__file__))
+#os.chdir(this_folder)
+#sys.path.append(os.path.join("E:/PythonFile/tornado_service", ".."))
 import tornado.web
 import tornado.ioloop
 import tornado.options  # 让模块有自定义选项
