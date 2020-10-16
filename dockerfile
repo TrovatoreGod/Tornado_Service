@@ -16,5 +16,5 @@ RUN python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/sim
 #EXPOSE 8899
 
 # 变参
-CMD ["python","./tornado_py/website_service.py"]
+CMD ["python","tornado_py/website_service.py"]
 
